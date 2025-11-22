@@ -26,3 +26,19 @@ body{
   font-size: 24px;
   color: rgb(224, 43, 32);
 }
+.section2{
+  height: 43px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+marquee{
+  width: 90%;
+  color: rgb(224, 43, 32);
+  font-size: 16px;
+  font-weight: 600;
+}
+.email{
+  color: #383838;
+}
