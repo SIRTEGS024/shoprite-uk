@@ -1,44 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-   font-family: "Montserrat", sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
-.section1{
+.section1 {
   height: 62px;
   background-color: #383838;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-   font-size: 15px;
+  font-size: 15px;
   font-weight: 500;
   color: white;
 }
-.contact-div{
+.contact-div {
   display: flex;
   align-items: center;
   gap: 0.5vw;
 }
-.section1-icons{
+.section1-icons {
   font-size: 24px;
   color: rgb(224, 43, 32);
 }
-.section2{
+.section2 {
   height: 43px;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-marquee{
+marquee {
   width: 90%;
   color: rgb(224, 43, 32);
   font-size: 16px;
   font-weight: 600;
 }
-.email{
+.email {
   color: #383838;
+}
+.section3 {
+  height: 80px;
+  background-color: rgb(224, 43, 32);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  gap: 20vw;
+}
+.section3-2 {
+  display: flex;
+  align-items: center;
+  gap: 2.5vw;
+}
+.section3-links {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  width: 176px;
+  height: 47px;
+}
+.fa-chevron-down{
+  font-size: 12px;
+}
+input{
+  width: 312px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 2.5vw;
+  font-size: 14px;
+}
+.fa-magnifying-glass{
+  font-size: 20px;
+  position: absolute;
+  color: #3838388e;
+  top: 0.6vw;
+  left: 0.5vw;
+}
+.search-cont{
+  position: relative;
+}
+.link-div:hover{
+  color: rgba(255, 255, 255, 0.649);
+  cursor: pointer;
+}
+.link-div:hover a{
+  color: rgba(255, 255, 255, 0.501);
+  
 }
